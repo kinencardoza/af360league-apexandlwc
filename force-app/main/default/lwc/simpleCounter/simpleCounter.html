@@ -1,0 +1,20 @@
+<template>
+
+
+    <lightning-card title="Simple Counter">
+        <section class="slds-p-around_small">
+            <p>Count: {count}</p>
+        </section>
+
+
+        <section class="slds-p-around_small">
+            <lightning-button label="Increment" onclick={handleIncrement} class="slds-m-right_small"></lightning-button>
+            <lightning-button label="Decrement" onclick={handleDecrement}></lightning-button>
+        </section>
+
+        <div class="slds-p-around_large">
+            <c-simple-counter-child></c-simple-counter-child>
+        
+        </div>
+    </lightning-card>
+</template>
