@@ -1,6 +1,6 @@
 import { LightningElement, api, track } from 'lwc';
 import { fromContext } from '@lwc/state';
-import promotionStateManager from 'c/promotionStateManager';
+import promotionStateManager from "c/promotionStateManager";
 import getRetailStores from '@salesforce/apex/PromotionCreatorCtrl.getRetailStores';
 
 export default class PromotionWizardStep3 extends LightningElement {
